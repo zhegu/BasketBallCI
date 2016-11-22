@@ -1,6 +1,7 @@
 <?php
 class Blog extends CI_Controller {
     function index() {
-        echo 'blog';
+        echo 'haha';
+       $this->load->view('blogview');
     }
 }
